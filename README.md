@@ -22,7 +22,7 @@ When QML strings change, regenerate the template and merge it into each catalog:
 xgettext --language=JavaScript --from-code=UTF-8 \
   --keyword=i18nd:2 \
   --package-name=plasma-welcome-branding-openSUSE \
-  --package-version=1.0.0 \
+  --package-version=0.1.0 \
   --output=po/plasma-welcome-branding-openSUSE.pot \
   qml/01-openSUSE.qml qml/02-openSUSE-Social-Media.qml
 

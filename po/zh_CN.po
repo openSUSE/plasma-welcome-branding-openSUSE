@@ -1,9 +1,9 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 msgid ""
 msgstr ""
-"Project-Id-Version: plasma-welcome-branding-openSUSE 1.0.0\n"
+"Project-Id-Version: plasma-welcome-branding-openSUSE 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-01 15:37+0800\n"
+"POT-Creation-Date: 2026-11-01 15:52+0800\n"
 "PO-Revision-Date: 2026-11-01 15:08+0800\n"
 "Last-Translator: openSUSE translation contributors\n"
 "Language-Team: Simplified Chinese\n"
@@ -58,7 +58,7 @@ msgstr "openSUSE 社交媒体"
 msgid "Follow openSUSE on social media and connect with the community."
 msgstr "关注 openSUSE 的社交媒体账号，与社区交流。"
 
-#: qml/02-openSUSE-Social-Media.qml:118
+#: qml/02-openSUSE-Social-Media.qml:119
 msgid "More..."
 msgstr "更多..."
 
