@@ -14,84 +14,110 @@ Welcome.Page {
     description: i18nd("plasma-welcome-branding-openSUSE", "Follow openSUSE on social media and connect with the community.")
 
     QQC2.ScrollView {
+        id: socialScrollView
         anchors.fill: parent
 
         GridLayout {
-            width: parent.width
+            width: socialScrollView.availableWidth
             columns: 2
             columnSpacing: Kirigami.Units.largeSpacing
             rowSpacing: Kirigami.Units.smallSpacing
+            readonly property real buttonColumnWidth: (width - columnSpacing) / columns
 
-            Kirigami.UrlButton {
+            QQC2.Button {
                 Layout.fillWidth: true
-                text: "X/Twitter"
-                url: "https://x.com/openSUSE"
-            }
-
-            Kirigami.UrlButton {
-                Layout.fillWidth: true
+                Layout.minimumWidth: 0
+                Layout.preferredWidth: parent.buttonColumnWidth
                 text: "Bluesky"
-                url: "https://bsky.app/profile/opensuse.org"
+                onClicked: Qt.openUrlExternally("https://bsky.app/profile/opensuse.org")
             }
 
-            Kirigami.UrlButton {
+            QQC2.Button {
                 Layout.fillWidth: true
-                text: "Mastodon"
-                url: "https://fosstodon.org/@opensuse"
-            }
-
-            Kirigami.UrlButton {
-                Layout.fillWidth: true
-                text: "Facebook"
-                url: "https://www.facebook.com/en.openSUSE"
-            }
-
-            Kirigami.UrlButton {
-                Layout.fillWidth: true
-                text: "Instagram"
-                url: "https://www.instagram.com/opensuse"
-            }
-
-            Kirigami.UrlButton {
-                Layout.fillWidth: true
-                text: "LinkedIn"
-                url: "https://www.linkedin.com/groups?mostPopular=&gid=61388"
-            }
-
-            Kirigami.UrlButton {
-                Layout.fillWidth: true
-                text: "Telegram"
-                url: "https://t.me/openSUSE_Project"
-            }
-
-            Kirigami.UrlButton {
-                Layout.fillWidth: true
-                text: "Reddit"
-                url: "https://www.reddit.com/r/openSUSE/"
-            }
-
-            Kirigami.UrlButton {
-                Layout.fillWidth: true
+                Layout.minimumWidth: 0
+                Layout.preferredWidth: parent.buttonColumnWidth
                 text: "Discord"
-                url: "https://discord.gg/opensuse"
+                onClicked: Qt.openUrlExternally("https://discord.gg/opensuse")
             }
 
-            Kirigami.UrlButton {
+            QQC2.Button {
                 Layout.fillWidth: true
+                Layout.minimumWidth: 0
+                Layout.preferredWidth: parent.buttonColumnWidth
+                text: "Facebook"
+                onClicked: Qt.openUrlExternally("https://www.facebook.com/en.openSUSE")
+            }
+
+            QQC2.Button {
+                Layout.fillWidth: true
+                Layout.minimumWidth: 0
+                Layout.preferredWidth: parent.buttonColumnWidth
+                text: "Instagram"
+                onClicked: Qt.openUrlExternally("https://www.instagram.com/opensuse")
+            }
+
+            QQC2.Button {
+                Layout.fillWidth: true
+                Layout.minimumWidth: 0
+                Layout.preferredWidth: parent.buttonColumnWidth
+                text: "LinkedIn"
+                onClicked: Qt.openUrlExternally("https://www.linkedin.com/groups?mostPopular=&gid=61388")
+            }
+
+            QQC2.Button {
+                Layout.fillWidth: true
+                Layout.minimumWidth: 0
+                Layout.preferredWidth: parent.buttonColumnWidth
+                text: "Mastodon"
+                onClicked: Qt.openUrlExternally("https://fosstodon.org/@opensuse")
+            }
+
+            QQC2.Button {
+                Layout.fillWidth: true
+                Layout.minimumWidth: 0
+                Layout.preferredWidth: parent.buttonColumnWidth
+                text: "Reddit"
+                onClicked: Qt.openUrlExternally("https://www.reddit.com/r/openSUSE/")
+            }
+
+            QQC2.Button {
+                Layout.fillWidth: true
+                Layout.minimumWidth: 0
+                Layout.preferredWidth: parent.buttonColumnWidth
+                text: "Telegram"
+                onClicked: Qt.openUrlExternally("https://t.me/openSUSE_Project")
+            }
+
+            QQC2.Button {
+                Layout.fillWidth: true
+                Layout.minimumWidth: 0
+                Layout.preferredWidth: parent.buttonColumnWidth
                 text: "Twitch"
-                url: "https://www.twitch.tv/opensuse"
+                onClicked: Qt.openUrlExternally("https://www.twitch.tv/opensuse")
             }
 
-            Kirigami.UrlButton {
+            QQC2.Button {
                 Layout.fillWidth: true
+                Layout.minimumWidth: 0
+                Layout.preferredWidth: parent.buttonColumnWidth
+                text: "X/Twitter"
+                onClicked: Qt.openUrlExternally("https://x.com/openSUSE")
+            }
+
+            QQC2.Button {
+                Layout.fillWidth: true
+                Layout.minimumWidth: 0
+                Layout.preferredWidth: parent.buttonColumnWidth
                 text: "YouTube"
-                url: "https://www.youtube.com/opensusetv"
+                onClicked: Qt.openUrlExternally("https://www.youtube.com/opensusetv")
             }
 
-            Kirigami.UrlButton {
+            QQC2.Button {
                 Layout.fillWidth: true
-                text: i18nd("plasma-welcome-branding-openSUSE", "All openSUSE social media contacts")
-                url: "https://en.opensuse.org/openSUSE:Social_media_contacts"
+                Layout.minimumWidth: 0
+                Layout.preferredWidth: parent.buttonColumnWidth
+                text: i18nd("plasma-welcome-branding-openSUSE", "More...")
+                onClicked: Qt.openUrlExternally("https://en.opensuse.org/openSUSE:Social_media_contacts")
             }
         }
     }

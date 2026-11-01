@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome-branding-openSUSE 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-01 15:30+0800\n"
+"POT-Creation-Date: 2026-11-01 15:37+0800\n"
 "PO-Revision-Date: 2026-11-01 15:08+0800\n"
 "Last-Translator: openSUSE translation contributors\n"
 "Language-Team: French\n"
@@ -61,9 +61,12 @@ msgid "Follow openSUSE on social media and connect with the community."
 msgstr ""
 "Suivez openSUSE sur les réseaux sociaux et échangez avec la communauté."
 
-#: qml/02-openSUSE-Social-Media.qml:93
-msgid "All openSUSE social media contacts"
-msgstr "Tous les contacts openSUSE sur les réseaux sociaux"
+#: qml/02-openSUSE-Social-Media.qml:118
+msgid "More..."
+msgstr "Plus..."
+
+#~ msgid "All openSUSE social media contacts"
+#~ msgstr "Tous les contacts openSUSE sur les réseaux sociaux"
 
 #~ msgctxt "@action:button"
 #~ msgid "Visit openSUSE.org"
