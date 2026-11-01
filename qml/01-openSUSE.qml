@@ -3,17 +3,18 @@
  */
 
 import QtQuick
+import QtQuick.Controls as QQC2
 import QtQuick.Layouts
 
 import org.kde.kirigami as Kirigami
 import org.kde.plasma.welcome as Welcome
 
 Welcome.Page {
-    heading: i18ndc("plasma-welcome-branding-openSUSE", "@title", "Discover openSUSE")
-    description: i18ndc("plasma-welcome-branding-openSUSE", "@info:usagetip", "Explore openSUSE documentation, find software, and support the community.")
+    heading: i18nd("plasma-welcome-branding-openSUSE", "Discover openSUSE")
+    description: i18nd("plasma-welcome-branding-openSUSE", "Explore openSUSE documentation, find software, and support the community.")
 
     ColumnLayout {
-        anchors.centerIn: parent
+        anchors.fill: parent
         spacing: Kirigami.Units.largeSpacing
 
         Kirigami.Icon {
@@ -23,22 +24,75 @@ Welcome.Page {
             source: "opensuse-sinking"
         }
 
-        Kirigami.UrlButton {
-            Layout.alignment: Qt.AlignHCenter
-            text: i18ndc("plasma-welcome-branding-openSUSE", "@action:button", "Read the documentation")
-            url: "https://doc.opensuse.org/"
-        }
+        GridLayout {
+            Layout.fillWidth: true
+            columns: 2
+            columnSpacing: Kirigami.Units.largeSpacing
+            rowSpacing: Kirigami.Units.smallSpacing
+            readonly property real buttonColumnWidth: (width - columnSpacing) / columns
 
-        Kirigami.UrlButton {
-            Layout.alignment: Qt.AlignHCenter
-            text: i18ndc("plasma-welcome-branding-openSUSE", "@action:button", "Explore software")
-            url: "https://software.opensuse.org/explore"
-        }
+            QQC2.Button {
+                Layout.fillWidth: true
+                Layout.minimumWidth: 0
+                Layout.preferredWidth: parent.buttonColumnWidth
+                icon.name: "go-home"
+                text: i18nd("plasma-welcome-branding-openSUSE", "Home")
+                onClicked: Qt.openUrlExternally("https://www.opensuse.org/")
+            }
 
-        Kirigami.UrlButton {
-            Layout.alignment: Qt.AlignHCenter
-            text: i18ndc("plasma-welcome-branding-openSUSE", "@action:button", "Support the project")
-            url: "https://geekos.org/donate/"
+            QQC2.Button {
+                Layout.fillWidth: true
+                Layout.minimumWidth: 0
+                Layout.preferredWidth: parent.buttonColumnWidth
+                icon.name: "message-news"
+                text: i18nd("plasma-welcome-branding-openSUSE", "News")
+                onClicked: Qt.openUrlExternally("https://news.opensuse.org/")
+            }
+
+            QQC2.Button {
+                Layout.fillWidth: true
+                Layout.minimumWidth: 0
+                Layout.preferredWidth: parent.buttonColumnWidth
+                icon.name: "help-contents"
+                text: i18nd("plasma-welcome-branding-openSUSE", "Docs")
+                onClicked: Qt.openUrlExternally("https://doc.opensuse.org/")
+            }
+
+            QQC2.Button {
+                Layout.fillWidth: true
+                Layout.minimumWidth: 0
+                Layout.preferredWidth: parent.buttonColumnWidth
+                icon.name: "text-wiki"
+                text: i18nd("plasma-welcome-branding-openSUSE", "Wiki")
+                onClicked: Qt.openUrlExternally("https://en.opensuse.org/Main_Page")
+            }
+
+            QQC2.Button {
+                Layout.fillWidth: true
+                Layout.minimumWidth: 0
+                Layout.preferredWidth: parent.buttonColumnWidth
+                icon.name: "system-users"
+                text: i18nd("plasma-welcome-branding-openSUSE", "Forums")
+                onClicked: Qt.openUrlExternally("https://forums.opensuse.org/")
+            }
+
+            QQC2.Button {
+                Layout.fillWidth: true
+                Layout.minimumWidth: 0
+                Layout.preferredWidth: parent.buttonColumnWidth
+                icon.name: "system-software-install"
+                text: i18nd("plasma-welcome-branding-openSUSE", "Software")
+                onClicked: Qt.openUrlExternally("https://software.opensuse.org/explore")
+            }
+
+            QQC2.Button {
+                Layout.fillWidth: true
+                Layout.minimumWidth: 0
+                Layout.preferredWidth: parent.buttonColumnWidth
+                icon.name: "favorite"
+                text: i18nd("plasma-welcome-branding-openSUSE", "Donate")
+                onClicked: Qt.openUrlExternally("https://geekos.org/donate/")
+            }
         }
     }
 }

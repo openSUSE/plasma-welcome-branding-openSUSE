@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome-branding-openSUSE 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-01 14:54+0800\n"
-"PO-Revision-Date: 2026-11-01 14:54+0800\n"
+"POT-Creation-Date: 2026-11-01 15:30+0800\n"
+"PO-Revision-Date: 2026-11-01 15:08+0800\n"
 "Last-Translator: openSUSE translation contributors\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -13,62 +13,82 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: qml/01-openSUSE.qml
-msgctxt "@title"
+#: qml/01-openSUSE.qml:13
 msgid "Discover openSUSE"
 msgstr "Découvrir openSUSE"
 
-#: qml/01-openSUSE.qml
-msgctxt "@info:usagetip"
-msgid "Explore openSUSE documentation, find software, and support the community."
-msgstr "Découvrez la documentation openSUSE, trouvez des logiciels et soutenez la communauté."
+#: qml/01-openSUSE.qml:14
+msgid ""
+"Explore openSUSE documentation, find software, and support the community."
+msgstr ""
+"Découvrez la documentation openSUSE, trouvez des logiciels et soutenez la "
+"communauté."
 
-#: qml/01-openSUSE.qml
-msgctxt "@action:button"
-msgid "Read the documentation"
-msgstr "Lire la documentation"
+#: qml/01-openSUSE.qml:39
+msgid "Home"
+msgstr "Accueil"
 
-#: qml/01-openSUSE.qml
-msgctxt "@action:button"
-msgid "Explore software"
-msgstr "Découvrir les logiciels"
-
-#: qml/01-openSUSE.qml
-msgctxt "@action:button"
-msgid "Support the project"
-msgstr "Soutenir le projet"
-
-#: qml/02-openSUSE-Social-Media.qml
-msgctxt "@title"
-msgid "openSUSE Social Media"
-msgstr "openSUSE sur les réseaux sociaux"
-
-#: qml/02-openSUSE-Social-Media.qml
-msgctxt "@info:usagetip"
-msgid "Follow openSUSE on social media and connect with the community."
-msgstr "Suivez openSUSE sur les réseaux sociaux et échangez avec la communauté."
-
-#: qml/02-openSUSE-Social-Media.qml
-msgctxt "@title"
-msgid "Microblogging"
-msgstr "Microblogging"
-
-#: qml/02-openSUSE-Social-Media.qml
-msgctxt "@title"
-msgid "Social networks"
-msgstr "Réseaux sociaux"
-
-#: qml/02-openSUSE-Social-Media.qml
-msgctxt "@title"
-msgid "More from openSUSE"
-msgstr "Plus d’openSUSE"
-
-#: qml/02-openSUSE-Social-Media.qml
-msgctxt "@action:button"
+#: qml/01-openSUSE.qml:48
 msgid "News"
 msgstr "Actualités"
 
-#: qml/02-openSUSE-Social-Media.qml
-msgctxt "@action:button"
+#: qml/01-openSUSE.qml:57
+msgid "Docs"
+msgstr "Docs"
+
+#: qml/01-openSUSE.qml:66
+msgid "Wiki"
+msgstr "Wiki"
+
+#: qml/01-openSUSE.qml:75
+msgid "Forums"
+msgstr "Forums"
+
+#: qml/01-openSUSE.qml:84
+msgid "Software"
+msgstr "Logiciels"
+
+#: qml/01-openSUSE.qml:93
+msgid "Donate"
+msgstr "Don"
+
+#: qml/02-openSUSE-Social-Media.qml:13
+msgid "openSUSE Social Media"
+msgstr "openSUSE sur les réseaux sociaux"
+
+#: qml/02-openSUSE-Social-Media.qml:14
+msgid "Follow openSUSE on social media and connect with the community."
+msgstr ""
+"Suivez openSUSE sur les réseaux sociaux et échangez avec la communauté."
+
+#: qml/02-openSUSE-Social-Media.qml:93
 msgid "All openSUSE social media contacts"
 msgstr "Tous les contacts openSUSE sur les réseaux sociaux"
+
+#~ msgctxt "@action:button"
+#~ msgid "Visit openSUSE.org"
+#~ msgstr "Visiter openSUSE.org"
+
+#~ msgctxt "@action:button"
+#~ msgid "Read the documentation"
+#~ msgstr "Lire la documentation"
+
+#~ msgctxt "@action:button"
+#~ msgid "Explore software"
+#~ msgstr "Découvrir les logiciels"
+
+#~ msgctxt "@action:button"
+#~ msgid "Support the project"
+#~ msgstr "Soutenir le projet"
+
+#~ msgctxt "@title"
+#~ msgid "Microblogging"
+#~ msgstr "Microblogging"
+
+#~ msgctxt "@title"
+#~ msgid "Social networks"
+#~ msgstr "Réseaux sociaux"
+
+#~ msgctxt "@title"
+#~ msgid "More from openSUSE"
+#~ msgstr "Plus d’openSUSE"

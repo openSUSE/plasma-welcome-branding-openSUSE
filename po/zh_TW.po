@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome-branding-openSUSE 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-01 14:54+0800\n"
-"PO-Revision-Date: 2026-11-01 14:54+0800\n"
+"POT-Creation-Date: 2026-11-01 15:30+0800\n"
+"PO-Revision-Date: 2026-11-01 15:08+0800\n"
 "Last-Translator: openSUSE translation contributors\n"
 "Language-Team: Traditional Chinese\n"
 "Language: zh_TW\n"
@@ -13,62 +13,79 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: qml/01-openSUSE.qml
-msgctxt "@title"
+#: qml/01-openSUSE.qml:13
 msgid "Discover openSUSE"
 msgstr "探索 openSUSE"
 
-#: qml/01-openSUSE.qml
-msgctxt "@info:usagetip"
-msgid "Explore openSUSE documentation, find software, and support the community."
+#: qml/01-openSUSE.qml:14
+msgid ""
+"Explore openSUSE documentation, find software, and support the community."
 msgstr "瀏覽 openSUSE 文件、尋找軟體並支持社群。"
 
-#: qml/01-openSUSE.qml
-msgctxt "@action:button"
-msgid "Read the documentation"
-msgstr "閱讀文件"
+#: qml/01-openSUSE.qml:39
+msgid "Home"
+msgstr "首頁"
 
-#: qml/01-openSUSE.qml
-msgctxt "@action:button"
-msgid "Explore software"
-msgstr "探索軟體"
-
-#: qml/01-openSUSE.qml
-msgctxt "@action:button"
-msgid "Support the project"
-msgstr "支持專案"
-
-#: qml/02-openSUSE-Social-Media.qml
-msgctxt "@title"
-msgid "openSUSE Social Media"
-msgstr "openSUSE 社群媒體"
-
-#: qml/02-openSUSE-Social-Media.qml
-msgctxt "@info:usagetip"
-msgid "Follow openSUSE on social media and connect with the community."
-msgstr "追蹤 openSUSE 的社群媒體帳號，與社群交流。"
-
-#: qml/02-openSUSE-Social-Media.qml
-msgctxt "@title"
-msgid "Microblogging"
-msgstr "微網誌"
-
-#: qml/02-openSUSE-Social-Media.qml
-msgctxt "@title"
-msgid "Social networks"
-msgstr "社群網路"
-
-#: qml/02-openSUSE-Social-Media.qml
-msgctxt "@title"
-msgid "More from openSUSE"
-msgstr "更多 openSUSE"
-
-#: qml/02-openSUSE-Social-Media.qml
-msgctxt "@action:button"
+#: qml/01-openSUSE.qml:48
 msgid "News"
 msgstr "新聞"
 
-#: qml/02-openSUSE-Social-Media.qml
-msgctxt "@action:button"
+#: qml/01-openSUSE.qml:57
+msgid "Docs"
+msgstr "文件"
+
+#: qml/01-openSUSE.qml:66
+msgid "Wiki"
+msgstr "維基"
+
+#: qml/01-openSUSE.qml:75
+msgid "Forums"
+msgstr "論壇"
+
+#: qml/01-openSUSE.qml:84
+msgid "Software"
+msgstr "軟體"
+
+#: qml/01-openSUSE.qml:93
+msgid "Donate"
+msgstr "捐款"
+
+#: qml/02-openSUSE-Social-Media.qml:13
+msgid "openSUSE Social Media"
+msgstr "openSUSE 社群媒體"
+
+#: qml/02-openSUSE-Social-Media.qml:14
+msgid "Follow openSUSE on social media and connect with the community."
+msgstr "追蹤 openSUSE 的社群媒體帳號，與社群交流。"
+
+#: qml/02-openSUSE-Social-Media.qml:93
 msgid "All openSUSE social media contacts"
 msgstr "openSUSE 社群媒體聯絡資訊"
+
+#~ msgctxt "@action:button"
+#~ msgid "Visit openSUSE.org"
+#~ msgstr "前往 openSUSE.org"
+
+#~ msgctxt "@action:button"
+#~ msgid "Read the documentation"
+#~ msgstr "閱讀文件"
+
+#~ msgctxt "@action:button"
+#~ msgid "Explore software"
+#~ msgstr "探索軟體"
+
+#~ msgctxt "@action:button"
+#~ msgid "Support the project"
+#~ msgstr "支持專案"
+
+#~ msgctxt "@title"
+#~ msgid "Microblogging"
+#~ msgstr "微網誌"
+
+#~ msgctxt "@title"
+#~ msgid "Social networks"
+#~ msgstr "社群網路"
+
+#~ msgctxt "@title"
+#~ msgid "More from openSUSE"
+#~ msgstr "更多 openSUSE"

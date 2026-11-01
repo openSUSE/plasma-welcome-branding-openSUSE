@@ -10,96 +10,87 @@ import org.kde.kirigami as Kirigami
 import org.kde.plasma.welcome as Welcome
 
 Welcome.Page {
-    heading: i18ndc("plasma-welcome-branding-openSUSE", "@title", "openSUSE Social Media")
-    description: i18ndc("plasma-welcome-branding-openSUSE", "@info:usagetip", "Follow openSUSE on social media and connect with the community.")
+    heading: i18nd("plasma-welcome-branding-openSUSE", "openSUSE Social Media")
+    description: i18nd("plasma-welcome-branding-openSUSE", "Follow openSUSE on social media and connect with the community.")
 
     QQC2.ScrollView {
         anchors.fill: parent
 
-        ColumnLayout {
+        GridLayout {
             width: parent.width
-            spacing: Kirigami.Units.smallSpacing
-
-            Kirigami.Heading {
-                Layout.fillWidth: true
-                level: 2
-                text: i18ndc("plasma-welcome-branding-openSUSE", "@title", "Microblogging")
-            }
+            columns: 2
+            columnSpacing: Kirigami.Units.largeSpacing
+            rowSpacing: Kirigami.Units.smallSpacing
 
             Kirigami.UrlButton {
+                Layout.fillWidth: true
                 text: "X/Twitter"
                 url: "https://x.com/openSUSE"
             }
 
             Kirigami.UrlButton {
+                Layout.fillWidth: true
                 text: "Bluesky"
                 url: "https://bsky.app/profile/opensuse.org"
             }
 
             Kirigami.UrlButton {
+                Layout.fillWidth: true
                 text: "Mastodon"
                 url: "https://fosstodon.org/@opensuse"
             }
 
-            Kirigami.Heading {
-                Layout.fillWidth: true
-                level: 2
-                text: i18ndc("plasma-welcome-branding-openSUSE", "@title", "Social networks")
-            }
-
             Kirigami.UrlButton {
+                Layout.fillWidth: true
                 text: "Facebook"
                 url: "https://www.facebook.com/en.openSUSE"
             }
 
             Kirigami.UrlButton {
+                Layout.fillWidth: true
                 text: "Instagram"
                 url: "https://www.instagram.com/opensuse"
             }
 
             Kirigami.UrlButton {
+                Layout.fillWidth: true
                 text: "LinkedIn"
                 url: "https://www.linkedin.com/groups?mostPopular=&gid=61388"
             }
 
             Kirigami.UrlButton {
+                Layout.fillWidth: true
                 text: "Telegram"
                 url: "https://t.me/openSUSE_Project"
             }
 
             Kirigami.UrlButton {
+                Layout.fillWidth: true
                 text: "Reddit"
                 url: "https://www.reddit.com/r/openSUSE/"
             }
 
-            Kirigami.Heading {
+            Kirigami.UrlButton {
                 Layout.fillWidth: true
-                level: 2
-                text: i18ndc("plasma-welcome-branding-openSUSE", "@title", "More from openSUSE")
-            }
-
-            Kirigami.UrlButton {
-                text: i18ndc("plasma-welcome-branding-openSUSE", "@action:button", "News")
-                url: "https://news.opensuse.org/"
-            }
-
-            Kirigami.UrlButton {
                 text: "Discord"
                 url: "https://discord.gg/opensuse"
             }
 
             Kirigami.UrlButton {
+                Layout.fillWidth: true
                 text: "Twitch"
                 url: "https://www.twitch.tv/opensuse"
             }
 
             Kirigami.UrlButton {
+                Layout.fillWidth: true
                 text: "YouTube"
                 url: "https://www.youtube.com/opensusetv"
             }
 
             Kirigami.UrlButton {
-                text: i18ndc("plasma-welcome-branding-openSUSE", "@action:button", "All openSUSE social media contacts")
+                Layout.fillWidth: true
+                text: i18nd("plasma-welcome-branding-openSUSE", "All openSUSE social media contacts")
                 url: "https://en.opensuse.org/openSUSE:Social_media_contacts"
             }
         }
