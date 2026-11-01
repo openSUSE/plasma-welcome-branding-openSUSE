@@ -1,0 +1,7 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+[Desktop Entry]
+Type=Link
+Name=Welcome to openSUSE
+Icon=openSUSE-distributor-logo
+Comment=The openSUSE community welcomes you.
+URL=https://www.opensuse.org/
