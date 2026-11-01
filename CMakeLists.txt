@@ -9,7 +9,9 @@ endif()
 set(PLASMA_WELCOME_DATA_DIR "${CMAKE_INSTALL_DATADIR}/plasma/plasma-welcome")
 
 install(
-    FILES qml/01-openSUSE.qml
+    FILES
+        qml/01-openSUSE.qml
+        qml/02-openSUSE-Social-Media.qml
     DESTINATION "${PLASMA_WELCOME_DATA_DIR}/extra-pages"
 )
 
