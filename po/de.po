@@ -1,0 +1,74 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-welcome-branding-openSUSE 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-01 14:54+0800\n"
+"PO-Revision-Date: 2026-11-01 14:54+0800\n"
+"Last-Translator: openSUSE translation contributors\n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: qml/01-openSUSE.qml
+msgctxt "@title"
+msgid "Discover openSUSE"
+msgstr "openSUSE entdecken"
+
+#: qml/01-openSUSE.qml
+msgctxt "@info:usagetip"
+msgid "Explore openSUSE documentation, find software, and support the community."
+msgstr "Entdecken Sie die openSUSE-Dokumentation, finden Sie Software und unterstützen Sie die Gemeinschaft."
+
+#: qml/01-openSUSE.qml
+msgctxt "@action:button"
+msgid "Read the documentation"
+msgstr "Dokumentation lesen"
+
+#: qml/01-openSUSE.qml
+msgctxt "@action:button"
+msgid "Explore software"
+msgstr "Software entdecken"
+
+#: qml/01-openSUSE.qml
+msgctxt "@action:button"
+msgid "Support the project"
+msgstr "Das Projekt unterstützen"
+
+#: qml/02-openSUSE-Social-Media.qml
+msgctxt "@title"
+msgid "openSUSE Social Media"
+msgstr "openSUSE in sozialen Medien"
+
+#: qml/02-openSUSE-Social-Media.qml
+msgctxt "@info:usagetip"
+msgid "Follow openSUSE on social media and connect with the community."
+msgstr "Folgen Sie openSUSE in sozialen Medien und tauschen Sie sich mit der Gemeinschaft aus."
+
+#: qml/02-openSUSE-Social-Media.qml
+msgctxt "@title"
+msgid "Microblogging"
+msgstr "Mikroblogging"
+
+#: qml/02-openSUSE-Social-Media.qml
+msgctxt "@title"
+msgid "Social networks"
+msgstr "Soziale Netzwerke"
+
+#: qml/02-openSUSE-Social-Media.qml
+msgctxt "@title"
+msgid "More from openSUSE"
+msgstr "Mehr von openSUSE"
+
+#: qml/02-openSUSE-Social-Media.qml
+msgctxt "@action:button"
+msgid "News"
+msgstr "Neuigkeiten"
+
+#: qml/02-openSUSE-Social-Media.qml
+msgctxt "@action:button"
+msgid "All openSUSE social media contacts"
+msgstr "Alle openSUSE-Kontakte in sozialen Medien"

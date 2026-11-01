@@ -2,6 +2,14 @@
 [Desktop Entry]
 Type=Link
 Name=Ahoy, this is openSUSE!
+Name[zh_CN]=欢迎来到 openSUSE！
+Name[zh_TW]=歡迎來到 openSUSE！
+Name[de]=Willkommen bei openSUSE!
+Name[fr]=Bienvenue sur openSUSE !
 Icon=opensuse-sinking
 Comment=Have a lot of fun
+Comment[zh_CN]=尽情享受 openSUSE！
+Comment[zh_TW]=盡情享受 openSUSE！
+Comment[de]=Viel Spaß mit openSUSE!
+Comment[fr]=Amusez-vous bien avec openSUSE !
 URL=https://www.opensuse.org/

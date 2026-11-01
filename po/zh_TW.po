@@ -1,0 +1,74 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-welcome-branding-openSUSE 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-01 14:54+0800\n"
+"PO-Revision-Date: 2026-11-01 14:54+0800\n"
+"Last-Translator: openSUSE translation contributors\n"
+"Language-Team: Traditional Chinese\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: qml/01-openSUSE.qml
+msgctxt "@title"
+msgid "Discover openSUSE"
+msgstr "探索 openSUSE"
+
+#: qml/01-openSUSE.qml
+msgctxt "@info:usagetip"
+msgid "Explore openSUSE documentation, find software, and support the community."
+msgstr "瀏覽 openSUSE 文件、尋找軟體並支持社群。"
+
+#: qml/01-openSUSE.qml
+msgctxt "@action:button"
+msgid "Read the documentation"
+msgstr "閱讀文件"
+
+#: qml/01-openSUSE.qml
+msgctxt "@action:button"
+msgid "Explore software"
+msgstr "探索軟體"
+
+#: qml/01-openSUSE.qml
+msgctxt "@action:button"
+msgid "Support the project"
+msgstr "支持專案"
+
+#: qml/02-openSUSE-Social-Media.qml
+msgctxt "@title"
+msgid "openSUSE Social Media"
+msgstr "openSUSE 社群媒體"
+
+#: qml/02-openSUSE-Social-Media.qml
+msgctxt "@info:usagetip"
+msgid "Follow openSUSE on social media and connect with the community."
+msgstr "追蹤 openSUSE 的社群媒體帳號，與社群交流。"
+
+#: qml/02-openSUSE-Social-Media.qml
+msgctxt "@title"
+msgid "Microblogging"
+msgstr "微網誌"
+
+#: qml/02-openSUSE-Social-Media.qml
+msgctxt "@title"
+msgid "Social networks"
+msgstr "社群網路"
+
+#: qml/02-openSUSE-Social-Media.qml
+msgctxt "@title"
+msgid "More from openSUSE"
+msgstr "更多 openSUSE"
+
+#: qml/02-openSUSE-Social-Media.qml
+msgctxt "@action:button"
+msgid "News"
+msgstr "新聞"
+
+#: qml/02-openSUSE-Social-Media.qml
+msgctxt "@action:button"
+msgid "All openSUSE social media contacts"
+msgstr "openSUSE 社群媒體聯絡資訊"

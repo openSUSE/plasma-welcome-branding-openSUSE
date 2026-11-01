@@ -10,8 +10,8 @@ import org.kde.kirigami as Kirigami
 import org.kde.plasma.welcome as Welcome
 
 Welcome.Page {
-    heading: i18nc("@title", "openSUSE Social Media")
-    description: i18nc("@info:usagetip", "Follow openSUSE on social media and connect with the community.")
+    heading: i18ndc("plasma-welcome-branding-openSUSE", "@title", "openSUSE Social Media")
+    description: i18ndc("plasma-welcome-branding-openSUSE", "@info:usagetip", "Follow openSUSE on social media and connect with the community.")
 
     QQC2.ScrollView {
         anchors.fill: parent
@@ -23,88 +23,83 @@ Welcome.Page {
             Kirigami.Heading {
                 Layout.fillWidth: true
                 level: 2
-                text: i18nc("@title", "Microblogging")
+                text: i18ndc("plasma-welcome-branding-openSUSE", "@title", "Microblogging")
             }
 
             Kirigami.UrlButton {
-                text: i18nc("@action:button", "X (@openSUSE)")
-                url: "https://twitter.com/openSUSE"
+                text: "X/Twitter"
+                url: "https://x.com/openSUSE"
             }
 
             Kirigami.UrlButton {
-                text: i18nc("@action:button", "Bluesky (@opensuse.org)")
+                text: "Bluesky"
                 url: "https://bsky.app/profile/opensuse.org"
             }
 
             Kirigami.UrlButton {
-                text: i18nc("@action:button", "Mastodon (@openSUSE)")
+                text: "Mastodon"
                 url: "https://fosstodon.org/@opensuse"
-            }
-
-            Kirigami.UrlButton {
-                text: i18nc("@action:button", "Weibo (@openSUSEzh)")
-                url: "https://weibo.com/openSUSEzh"
             }
 
             Kirigami.Heading {
                 Layout.fillWidth: true
                 level: 2
-                text: i18nc("@title", "Social networks")
+                text: i18ndc("plasma-welcome-branding-openSUSE", "@title", "Social networks")
             }
 
             Kirigami.UrlButton {
-                text: i18nc("@action:button", "Facebook")
+                text: "Facebook"
                 url: "https://www.facebook.com/en.openSUSE"
             }
 
             Kirigami.UrlButton {
-                text: i18nc("@action:button", "Instagram")
+                text: "Instagram"
                 url: "https://www.instagram.com/opensuse"
             }
 
             Kirigami.UrlButton {
-                text: i18nc("@action:button", "LinkedIn")
+                text: "LinkedIn"
                 url: "https://www.linkedin.com/groups?mostPopular=&gid=61388"
             }
 
             Kirigami.UrlButton {
-                text: i18nc("@action:button", "Telegram")
+                text: "Telegram"
                 url: "https://t.me/openSUSE_Project"
             }
 
             Kirigami.UrlButton {
-                text: i18nc("@action:button", "Reddit")
+                text: "Reddit"
                 url: "https://www.reddit.com/r/openSUSE/"
             }
 
             Kirigami.Heading {
                 Layout.fillWidth: true
                 level: 2
-                text: i18nc("@title", "More from openSUSE")
+                text: i18ndc("plasma-welcome-branding-openSUSE", "@title", "More from openSUSE")
             }
 
             Kirigami.UrlButton {
-                text: i18nc("@action:button", "News")
+                text: i18ndc("plasma-welcome-branding-openSUSE", "@action:button", "News")
                 url: "https://news.opensuse.org/"
             }
 
             Kirigami.UrlButton {
-                text: i18nc("@action:button", "Discord")
+                text: "Discord"
                 url: "https://discord.gg/opensuse"
             }
 
             Kirigami.UrlButton {
-                text: i18nc("@action:button", "Twitch")
+                text: "Twitch"
                 url: "https://www.twitch.tv/opensuse"
             }
 
             Kirigami.UrlButton {
-                text: i18nc("@action:button", "YouTube")
+                text: "YouTube"
                 url: "https://www.youtube.com/opensusetv"
             }
 
             Kirigami.UrlButton {
-                text: i18nc("@action:button", "All openSUSE social media contacts")
+                text: i18ndc("plasma-welcome-branding-openSUSE", "@action:button", "All openSUSE social media contacts")
                 url: "https://en.opensuse.org/openSUSE:Social_media_contacts"
             }
         }

@@ -1,0 +1,74 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-welcome-branding-openSUSE 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-01 14:54+0800\n"
+"PO-Revision-Date: 2026-11-01 14:54+0800\n"
+"Last-Translator: openSUSE translation contributors\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: qml/01-openSUSE.qml
+msgctxt "@title"
+msgid "Discover openSUSE"
+msgstr "Découvrir openSUSE"
+
+#: qml/01-openSUSE.qml
+msgctxt "@info:usagetip"
+msgid "Explore openSUSE documentation, find software, and support the community."
+msgstr "Découvrez la documentation openSUSE, trouvez des logiciels et soutenez la communauté."
+
+#: qml/01-openSUSE.qml
+msgctxt "@action:button"
+msgid "Read the documentation"
+msgstr "Lire la documentation"
+
+#: qml/01-openSUSE.qml
+msgctxt "@action:button"
+msgid "Explore software"
+msgstr "Découvrir les logiciels"
+
+#: qml/01-openSUSE.qml
+msgctxt "@action:button"
+msgid "Support the project"
+msgstr "Soutenir le projet"
+
+#: qml/02-openSUSE-Social-Media.qml
+msgctxt "@title"
+msgid "openSUSE Social Media"
+msgstr "openSUSE sur les réseaux sociaux"
+
+#: qml/02-openSUSE-Social-Media.qml
+msgctxt "@info:usagetip"
+msgid "Follow openSUSE on social media and connect with the community."
+msgstr "Suivez openSUSE sur les réseaux sociaux et échangez avec la communauté."
+
+#: qml/02-openSUSE-Social-Media.qml
+msgctxt "@title"
+msgid "Microblogging"
+msgstr "Microblogging"
+
+#: qml/02-openSUSE-Social-Media.qml
+msgctxt "@title"
+msgid "Social networks"
+msgstr "Réseaux sociaux"
+
+#: qml/02-openSUSE-Social-Media.qml
+msgctxt "@title"
+msgid "More from openSUSE"
+msgstr "Plus d’openSUSE"
+
+#: qml/02-openSUSE-Social-Media.qml
+msgctxt "@action:button"
+msgid "News"
+msgstr "Actualités"
+
+#: qml/02-openSUSE-Social-Media.qml
+msgctxt "@action:button"
+msgid "All openSUSE social media contacts"
+msgstr "Tous les contacts openSUSE sur les réseaux sociaux"
