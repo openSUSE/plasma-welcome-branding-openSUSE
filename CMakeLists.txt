@@ -17,3 +17,8 @@ install(
     FILES data/intro-customization.desktop
     DESTINATION "${PLASMA_WELCOME_DATA_DIR}"
 )
+
+install(
+    FILES images/opensuse-sinking.svg
+    DESTINATION "${CMAKE_INSTALL_DATADIR}/icons/hicolor/scalable/apps"
+)

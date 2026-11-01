@@ -9,7 +9,7 @@ import org.kde.kirigami as Kirigami
 import org.kde.plasma.welcome as Welcome
 
 Welcome.Page {
-    title: i18nc("@title", "Discover openSUSE")
+    heading: i18nc("@title", "Discover openSUSE")
     description: i18nc("@info:usagetip", "Explore openSUSE documentation, find software, and support the community.")
 
     ColumnLayout {
@@ -20,7 +20,7 @@ Welcome.Page {
             Layout.alignment: Qt.AlignHCenter
             Layout.preferredWidth: Kirigami.Units.gridUnit * 12
             Layout.preferredHeight: Kirigami.Units.gridUnit * 8
-            source: "openSUSE-distributor-logo"
+            source: "opensuse-sinking"
         }
 
         Kirigami.UrlButton {
