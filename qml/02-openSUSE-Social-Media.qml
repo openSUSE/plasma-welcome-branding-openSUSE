@@ -85,7 +85,7 @@ Welcome.Page {
                 Layout.minimumWidth: 0
                 Layout.preferredWidth: parent.buttonColumnWidth
                 text: "Telegram"
-                onClicked: Qt.openUrlExternally("https://t.me/openSUSE_Project")
+                onClicked: Qt.openUrlExternally(i18nd("plasma-welcome-branding-openSUSE", "https://t.me/opensuse"))
             }
 
             QQC2.Button {
